@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>Landings with diferent animations and effects</p>
+        <p>Dynamic Impressions</p>
         <div>
           By{" "}
           <a href="https://github.com/matifandy8" target="_blank">
@@ -15,21 +15,16 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+        <h1>
+          Dynamic Impressions is a collection of landings pages with diferent
+          effects and animations{" "}
+        </h1>
       </div>
 
       <div className={styles.grid}>
         <a
-          href="/parallax-scroll-effect"
+          href="/ParallaxScrollPage"
           className={styles.card}
-          target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
@@ -38,36 +33,21 @@ export default function Home() {
           <p>Landing with Parallax Scroll Effect</p>
         </a>
 
-        <a
-          href=""
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="" className={styles.card} rel="noopener noreferrer">
           <h2>
             Glitch effect<span>-&gt;</span>
           </h2>
           <p> Landing with Glitch effect</p>
         </a>
 
-        <a
-          href=""
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="" className={styles.card} rel="noopener noreferrer">
           <h2>
             Text animation <span>-&gt;</span>
           </h2>
           <p>Landing with text animation</p>
         </a>
 
-        <a
-          href=""
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="" className={styles.card} rel="noopener noreferrer">
           <h2>
             Carousels and slideshows <span>-&gt;</span>
           </h2>

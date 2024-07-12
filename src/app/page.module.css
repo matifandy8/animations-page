@@ -5,6 +5,12 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
 .description {
@@ -79,6 +85,7 @@
   align-items: center;
   position: relative;
   padding: 4rem 0;
+  max-width: 1000px;
 }
 
 .center::before {
