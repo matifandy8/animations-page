@@ -6,14 +6,27 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 const ParallaxScrollPage = () => {
   return (
     <div>
-      <Parallax pages={1}>
-        <ParallaxLayer speed={1}>
-          <h1>Parallax Scroll Effect</h1>
+      <Parallax pages={2}>
+        <ParallaxLayer
+          speed={1}
+          style={{ backgroundImage: "url(/sky.png)" }}
+        ></ParallaxLayer>
+        <ParallaxLayer
+          speed={1}
+          style={{ backgroundImage: "url(/mountain.png)" }}
+          factor={2}
+        ></ParallaxLayer>
+
+        <ParallaxLayer offset={0.5} speed={1} factor={4}>
+          <h1 style={{ textAlign: "center" }}>Parallax Scroll Effect</h1>
         </ParallaxLayer>
 
-        <ParallaxLayer speed={1}>
-          <div style={{ height: "100vh", backgroundColor: "red" }} />
-        </ParallaxLayer>
+        <ParallaxLayer
+          offset={0.5}
+          speed={1.5}
+          factor={1.5}
+          style={{ backgroundImage: "url(/person-mountain.png)" }}
+        ></ParallaxLayer>
       </Parallax>
     </div>
   );
