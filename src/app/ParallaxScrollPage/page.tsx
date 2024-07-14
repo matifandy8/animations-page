@@ -2,10 +2,11 @@
 
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import "./styles.css";
 
 const ParallaxScrollPage = () => {
   return (
-    <div>
+    <div className="container">
       <Parallax pages={2}>
         <ParallaxLayer
           speed={1}

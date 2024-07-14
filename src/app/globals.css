@@ -99,3 +99,15 @@ a {
     color-scheme: dark;
   }
 }
+
+.goBack {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0b1d26;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 0 0 0 10px;
+  z-index: 1;
+}
