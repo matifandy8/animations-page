@@ -33,11 +33,15 @@ export default function Home() {
           <p>Landing with Parallax Scroll Effect</p>
         </a>
 
-        <a href="" className={styles.card} rel="noopener noreferrer">
+        <a
+          href="/MaskCursorEffect"
+          className={styles.card}
+          rel="noopener noreferrer"
+        >
           <h2>
-            Glitch effect<span>-&gt;</span>
+            Mask Cursor Effect<span>-&gt;</span>
           </h2>
-          <p> Landing with Glitch effect</p>
+          <p> Landing with Mask Cursor Effect</p>
         </a>
 
         <a href="" className={styles.card} rel="noopener noreferrer">
