@@ -44,11 +44,15 @@ export default function Home() {
           <p> Landing with Mask Cursor Effect</p>
         </a>
 
-        <a href="" className={styles.card} rel="noopener noreferrer">
+        <a
+          href="HorizontalScrollCarousel"
+          className={styles.card}
+          rel="noopener noreferrer"
+        >
           <h2>
-            Text animation <span>-&gt;</span>
+            Horizontal Scroll Carousel <span>-&gt;</span>
           </h2>
-          <p>Landing with text animation</p>
+          <p>Landing with Horizontal Scroll Carousel</p>
         </a>
 
         <a href="" className={styles.card} rel="noopener noreferrer">
