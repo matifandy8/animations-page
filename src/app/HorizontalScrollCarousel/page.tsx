@@ -12,7 +12,7 @@ export default function HorizontalScrollCarousel() {
 
   return (
     <main className="main">
-      <h1 className="title">Horizontal Scroll Carousel</h1>
+      <h1 className="title">Horizontal Scroll Carousel </h1>
 
       <div className="container" ref={targetRef}>
         <div className="gallery">

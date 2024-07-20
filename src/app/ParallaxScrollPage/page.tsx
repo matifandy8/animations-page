@@ -9,23 +9,26 @@ const ParallaxScrollPage = () => {
     <div className="container">
       <Parallax pages={2}>
         <ParallaxLayer
-          speed={1}
+          speed={0.5}
           style={{ backgroundImage: "url(/sky.png)" }}
         ></ParallaxLayer>
         <ParallaxLayer
           speed={1}
           style={{ backgroundImage: "url(/mountain.png)" }}
           factor={2}
+          offset={0.2}
         ></ParallaxLayer>
 
-        <ParallaxLayer offset={0.5} speed={1} factor={4}>
-          <h1 style={{ textAlign: "center" }}>Parallax Scroll Effect</h1>
+        <ParallaxLayer offset={0.4} speed={0.5}>
+          <h1 className="title" style={{ textAlign: "center" }}>
+            Parallax Scroll Effect
+          </h1>
         </ParallaxLayer>
 
         <ParallaxLayer
           offset={0.5}
-          speed={1.5}
-          factor={1.5}
+          speed={1}
+          factor={2}
           style={{ backgroundImage: "url(/person-mountain.png)" }}
         ></ParallaxLayer>
       </Parallax>
