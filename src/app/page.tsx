@@ -54,13 +54,6 @@ export default function Home() {
           </h2>
           <p>Landing with Horizontal Scroll Carousel</p>
         </a>
-
-        <a href="" className={styles.card} rel="noopener noreferrer">
-          <h2>
-            Carousels and slideshows <span>-&gt;</span>
-          </h2>
-          <p>Landing with carousels and slideshows</p>
-        </a>
       </div>
     </main>
   );
